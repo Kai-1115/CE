@@ -1,0 +1,16 @@
+ca:
+  client:
+    type: client
+    cert: ./client/client.cert.pem
+    private_key: ./client/client.key.pem
+    csr: ./client/client.csr.pem
+    parent_cert: ./intermediate/intermediate.cert.pem
+    parent_key: ./intermediate/intermediate.key.pem
+    is_ca: false
+    organization: "NYCU-CE"
+    common_name: "NYCU-CE Client CA"
+    validity_years: 10
+    validity_month: 0
+    validity_day: 0
+    dns_names: ["localhost"]
+    ip_addresses: ["127.0.0.1", "0.0.0.0"]
