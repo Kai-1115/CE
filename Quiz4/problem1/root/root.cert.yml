@@ -1,0 +1,12 @@
+ca:
+  root:
+    type: root
+    cert: ./root/root.cert.pem
+    private_key: ./root/root.key.pem
+    csr: ./root.csr.pem
+    is_ca: true
+    organization: "NYCU-CE"
+    common_name: "NYCU-CE Root CA"
+    validity_years: 10
+    validity_month: 0
+    validity_day: 0

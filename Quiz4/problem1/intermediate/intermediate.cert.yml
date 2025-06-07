@@ -1,0 +1,14 @@
+ca:
+  intermediate:
+    type: intermediate
+    cert: ./intermediate/intermediate.cert.pem
+    private_key: ./intermediate/intermediate.key.pem
+    csr: ./intermediate/intermediate.csr.pem
+    parent_cert: ./root/root.cert.pem
+    parent_key: ./root/root.key.pem
+    is_ca: true
+    organization: "NYCU-CE"
+    common_name: "NYCU-CE Intermediate CA"
+    validity_years: 10
+    validity_month: 0
+    validity_day: 0
